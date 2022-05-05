@@ -338,7 +338,7 @@ section {
                     width: 20px;
                     height: 15px;
                     display: block;
-                    background-image: url(img/svg/arrow.svg);
+                    background-image: url(/img/svg/arrow.svg);
                     background-repeat: no-repeat;
                     background-size: cover;
                     fill: #424F7B;
@@ -394,7 +394,6 @@ section {
     }
 
 	&__form {
-        min-height: 100px;
         width: 588px;
         }
 
@@ -415,21 +414,22 @@ section {
         margin: 0;
 		}
 
-	&__form-input {
-        width: 20px;
-        height: 20px;
-        border: none;
-        border-radius: 50%;
-        content: url(img/svg/arrow_down.svg);
+	&__form-text {
+        display: none;
+        transition: all;
+		}
+
+	&__form-input { 
+        content: url(/img/svg/arrow_down.svg);
+        width: 40px;
+        height: 40px;
         margin: 0;
+        transition: all;
         &:checked {
-            content: url(img/svg/arrow_up.svg);
+            content: url(/img/svg/arrow_up.svg);
         }
 	}
 
-	&__form-text {
-        display: none;
-		}
 }
 
 
