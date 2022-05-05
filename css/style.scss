@@ -338,7 +338,7 @@ section {
                     width: 20px;
                     height: 15px;
                     display: block;
-                    background-image: url(img/svg/arrow.svg);
+                    background-image: url(/img/svg/arrow.svg);
                     background-repeat: no-repeat;
                     background-size: cover;
                     fill: #424F7B;
@@ -420,13 +420,13 @@ section {
 		}
 
 	&__form-input { 
-        content: url(img/svg/arrow_down.svg);
+        content: url(/img/svg/arrow_down.svg);
         width: 40px;
         height: 40px;
         margin: 0;
         transition: all;
         &:checked {
-            content: url(img/svg/arrow_up.svg);
+            content: url(/img/svg/arrow_up.svg);
         }
 	}
 
